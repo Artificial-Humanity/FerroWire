@@ -32,4 +32,5 @@ no roster of their own, and the shadowed workspace file also carries the declare
 this file's rules on arrival rather than carrying habits across the boundary.
 
 **Keep this file short.** It exists to route; the rules live in `AGENTS.md`, the reasoning
-in `notes/`, and the *why* in [`north-star.md`](north-star.md).
+in the private working notes (`notes/` is a symlink into the umbrella `Notes` repo and is
+not published), and the *why* in [`north-star.md`](north-star.md).

@@ -11,8 +11,9 @@ the AI-native issue tracker. FerroWire was part of FerroTrack until 2026-09-07 a
 separated so that each product does one thing.
 
 **Status: pre-alpha.** The repository was created 2026-09-07 and holds no product code. See
-[`north-star.md`](north-star.md) for what it is for, [`AGENTS.md`](AGENTS.md) for what has
-been decided, and `notes/` for the record those decisions were made on.
+[`north-star.md`](north-star.md) for what it is for and [`AGENTS.md`](AGENTS.md) for what
+has been decided. ⚠ The working notes those decisions were made on are kept privately and
+are not part of this repository.
 
 ## License
 

@@ -98,4 +98,8 @@ they start, a router that carries messages between them, and a wake-up mechanism
    one spawn duplicating a live process.
 7. **The backing store is undecided.** ⚠ Do not inherit FerroTrack's answer — its workloads
    left with this product, and the reasoning that chose redb was about an issue tracker.
-   `notes/inherited-store-research.md` records what transfers and what does not.
+   ⚠ **`inherited-store-research.md` records what transfers and what does not. It is a
+   WORKING NOTE and is deliberately not published here** — working notes live in the
+   umbrella `Notes/FerroWire` repository, which is private. On a checkout that has it, the
+   repo's `notes/` symlink reaches it; from the published repo alone it is not visible, and
+   that is intended rather than an omission.

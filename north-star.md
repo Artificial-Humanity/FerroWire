@@ -4,8 +4,8 @@
 > When a branch or a detour raises "wait, what are we doing again?", this answers it.
 >
 > ⚠ **This file owns nothing but §1.** Everything else is held in [`AGENTS.md`](AGENTS.md)
-> or under `notes/`, and the owning file is named at each point. If they disagree, the
-> owning file wins and this one is the defect.
+> or in the private working notes, and the owning file is named at each point. If they
+> disagree, the owning file wins and this one is the defect.
 >
 > ⚠⚠ **§1 IS THE OWNER'S AND IS UNRATIFIED.** It was assembled 2026-09-08 by **FerroTrack's
 > resident** from the owner's own words in conversation on 2026-09-04 — organised, not
