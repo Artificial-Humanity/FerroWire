@@ -13,9 +13,19 @@ whose directory satisfies that convention — so it wins, and the workspace-root
 `config.yaml` that exists to be the shared parent layer is shadowed. Reproduced in a clean
 fixture 2026-09-08 against `ferrostep` built from `622d71e`; reported to FerroStep.
 
-⚠ **Until the owner assigns an identity here: do not run `agent-env` to learn who you are,
-and do not commit using what it returns.** Ask the owner. Committing as another repo's
-agent is a convention failure that leaves no error behind — only a wrong name in the log.
+⚠⚠ **The guard, sharpened by FerroStep's resident 2026-09-08 — it is not merely "distrust
+the answer": `agent-env` here emits THAT AGENT'S identity, so a resident following the
+documented commit procedure signs as them.** So:
+
+> **Treat a resolved roster whose `AGENT_ROSTER` points into the FerroStep repository as a
+> REFUSAL, not a result.** Stop and ask the owner. Do not commit with what it returned.
+
+⚠ Filed upstream as FerroStep #353, **confirmed and deliberately not yet fixed**: the two
+honest repairs — refuse on ambiguity, or layer both rosters instead of choosing — differ in
+whether every `agent-env` in the workspace starts failing at once, and that is the owner's
+call. ⚠ The blast radius is wider than this repo: eight directories under the workspace have
+no roster of their own, and the shadowed workspace file also carries the declared
+**credential source**, which is therefore unreachable too.
 
 ⚠ **The sibling repos are not this repo.** FerroStep and FerroTrack each have their own
 `AGENTS.md`, and a convention that holds in one of them can be reversed in another. Re-read
